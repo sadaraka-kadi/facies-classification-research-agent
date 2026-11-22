@@ -1,0 +1,10 @@
+=== Iteration 17/25: Iter 15 LightGBM, but a training well with a single facies (WELL_02, all F9) is z-scored with pooled stats of the other training wells: z-scored against itself all its rows sit at z=0 while real F9 has PE_z ~ +1.5, which likely caused iter 15's F9 loss (0.579 -> 0.434)
+  held-out well WELL_01          weighted F1 = 0.5060
+  held-out well WELL_03          weighted F1 = 0.4300
+  held-out well WELL_04          weighted F1 = 0.6690
+  held-out well WELL_05          weighted F1 = 0.5854
+  held-out well WELL_06          weighted F1 = 0.5191
+  held-out well WELL_07          weighted F1 = 0.5613
+  held-out well WELL_09          weighted F1 = 0.5281
+  fitting on all training wells and predicting the test wells ...
+=== Iteration 17 ok | CV weighted F1 = 0.5365 | macro F1 = 0.4949 | accuracy = 0.5490 | 8 left before your limit of 25
