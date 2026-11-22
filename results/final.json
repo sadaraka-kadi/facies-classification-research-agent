@@ -1,0 +1,8 @@
+{
+  "iteration": "17",
+  "cv_f1": "0.5365",
+  "model_family": "LightGBM",
+  "code_sha256": "b337dbe0ccb9a53d3cd98f9970f710416b52c1d6ef2aaa6f96921be696bc13ef",
+  "pred_sha256": "61cbb74d0116d6538c752c0431a5d32bca3880f8cd53f787980e0b8d5d8b7569",
+  "declared": "2026-11-11T12:53:08"
+}
