@@ -86,4 +86,4 @@ Data and evaluation harness: IGS 2026 Agentic AI Lab Competition organisers (SLB
 
 ## Licence
 
-MIT Licence
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
