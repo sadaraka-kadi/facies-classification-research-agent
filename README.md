@@ -41,6 +41,7 @@ Read these numbers with care:
 train.py            final training script (iteration 17)
 requirements.txt    package versions
 instructions/       the four versions of the agent's instructions (see below)
+figures/            sections of the well logs, images used in presentation deck
 results/
   log.csv           one row per iteration (all 20): score, model family, note
   final.json        the declared final iteration (17)
