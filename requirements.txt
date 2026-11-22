@@ -1,0 +1,9 @@
+# Python 3.12 (tested with 3.12.8). Keep these pinned versions; pin anything you add.
+numpy==2.5.3
+pandas==3.0.6
+scikit-learn==1.9.1
+
+# Optional: uncomment only what your experiments use.
+xgboost==3.4.1     # macOS also needs: brew install libomp
+lightgbm==4.7.0    # macOS also needs: brew install libomp
+# torch==2.14.1      # for 1D-CNN / LSTM
