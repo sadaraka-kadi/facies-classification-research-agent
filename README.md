@@ -38,15 +38,15 @@ Read these numbers with care:
 ## What is in this repository
 
 ```
-train.py            final training script (iteration 17 snapshot is in results/)
+train.py            final training script (iteration 17)
 requirements.txt    package versions
 instructions/       the four versions of the agent's instructions (see below)
 results/
-  log.csv           one row per iteration: score, model family, note
-  final.json        the declared final iteration
+  log.csv           one row per iteration (all 20): score, model family, note
+  final.json        the declared final iteration (17)
   notes.md          the agent's notes on every iteration
   report.md         the agent's report
-  iter_NN/          code snapshot, console output and metrics for each run
+  iter_17/          the final run: code snapshot, console output and metrics
 scripts/            helper scripts used for the talk's charts and checks
 ```
 
@@ -65,6 +65,7 @@ A change counted as an improvement only if CV F1 rose by more than 0.01 and it d
 
 - **The competition data** (`data/train_data.csv`, `data/test_data.csv`). The organisers asked that it not be shared publicly. Get it from the IGS 2026 Agentic AI Lab Competition kit.
 - **`evaluate.py`**, the official evaluation harness. It is part of the kit, not my work.
+- **The folders for the other 19 iterations.** Their scores and notes are in `results/log.csv` and `results/notes.md`; only the final run (iteration 17) is included in full.
 - **Test-set predictions and any submission zip.**
 
 ## Reproducing the run
